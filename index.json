@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T15:20:22Z",
+  "generated_at": "2026-11-03T15:36:37Z",
   "source_repo": "y1-community/y1-linux-rom",
   "mirror_repo": "y1-community/y1-linux-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -42,7 +42,47 @@
       "layout": "beside_app"
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "tag": "0.0.1",
+      "title": "Portable Flashing Package: Linux ROM for Y1 Developers / Modders",
+      "source_title": "Linux ROM for Y1 Developers / Modders",
+      "source_url": "https://github.com/y1-community/y1-linux-rom/releases/tag/0.0.1",
+      "published_at": "2026-10-03T15:29:58Z",
+      "prerelease": false,
+      "source_notes": "This is a release of Linux for the Innioasis Y1 intended for developers to create novel experiences on the Innioasis Y1 audio player.\r\n\r\nCredit to @palutenfan123 for building this.",
+      "assets": [
+        {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "size": 506753692,
+          "sha256": "cac0618664ea4b16bc1dbd320502b0ff7ce29bec249629d4e18899deb0284a47",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows.zip"
+        },
+        {
+          "name": "rom-linux.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux",
+          "size": 658064411,
+          "sha256": "93922d98ba64c0d3033035379d0d7ff8a8827a4964b69afed44720a87caea209",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip"
+        },
+        {
+          "name": "rom-macos.zip",
+          "source_asset": "rom.zip",
+          "platform": "macos",
+          "size": 457968754,
+          "sha256": "d133ad0e6291201dcbeb0620f1cbaf418c734f4ae2bc4e2bbf60027c3d58c965",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom.zip"
+      ],
+      "stats_url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/stats.txt"
+    }
+  ],
   "source_readme": {
     "path": "README.md",
     "source_path": "README.md",
