@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-04T21:29:24Z",
+  "generated_at": "2026-11-05T11:29:23Z",
   "source_repo": "y1-community/y1-linux-rom",
   "mirror_repo": "y1-community/y1-linux-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -59,7 +59,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 644364523,
-          "sha256": "cc4dbcf6e6e0e6112aa080535063e3d9f08956049ab24faa0c2b06e8f67ae681",
+          "sha256": "ff6e0dec1061ab540bed3dcca79eb6df13eb24e8ba280bad89a9980269765749",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip"
         },
         {
@@ -69,7 +69,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 410953357,
-          "sha256": "69b0e3133a1e51d7be7db9bb141635a0fe934478683105ba3c285dc29e5c823b",
+          "sha256": "473531b494b03d4ff428de41d370f9f7c17c92874e944465ccd207749c3756d5",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip"
         },
         {
@@ -78,8 +78,8 @@
           "platform": "windows",
           "model": "Y1",
           "type": "Type A",
-          "size": 493149359,
-          "sha256": "089677c731383d330902abd92cec01e8a6a67ed3c3fc9aa6899f7a48615e2dd1",
+          "size": 495591490,
+          "sha256": "6209bc63d2d40370856e06191eebe4faaabfa56e655ea308da77a6315cad979c",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows.zip"
         }
       ],
