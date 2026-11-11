@@ -1,8 +1,11 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T14:14:14Z",
+  "generated_at": "2026-11-11T21:41:43Z",
   "source_repo": "y1-community/y1-linux-rom",
+  "source_fallback_repo": "ryan-specter/y1-linux-rom",
   "mirror_repo": "y1-community/y1-linux-rom-mirror",
+  "mirror_fallback_repo": "ryan-specter/y1-linux-rom-mirror",
+  "fallback_index_url": "https://raw.githubusercontent.com/ryan-specter/y1-linux-rom-mirror/main/index.json",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
@@ -47,6 +50,14 @@
       "legacy": false
     },
     {
+      "key": "linux-legacy",
+      "os": "linux",
+      "arch": "x86",
+      "suffix": "-linux-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
+    {
       "key": "macos",
       "os": "macos",
       "arch": "universal",
@@ -61,6 +72,7 @@
       "title": "Portable Flashing Package: Linux ROM for Y1 Developers / Modders",
       "source_title": "Linux ROM for Y1 Developers / Modders",
       "source_url": "https://github.com/y1-community/y1-linux-rom/releases/tag/0.0.1",
+      "source_fallback_url": "https://github.com/ryan-specter/y1-linux-rom/releases/tag/0.0.1",
       "published_at": "2026-10-03T15:29:58Z",
       "prerelease": false,
       "source_notes": "This is a release of Linux for the Innioasis Y1 intended for developers to create novel experiences on the Innioasis Y1 audio player.\r\n\r\nCredit to @palutenfan123 for building this.",
@@ -72,8 +84,20 @@
           "model": "Y1",
           "type": "Type A",
           "size": 492284289,
-          "sha256": "968011563e08ff719ca4d89cc0bef1d4a6acf6532aa164455ef357149c1e0c89",
-          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows.zip"
+          "sha256": "725eb4c8da00f9a00d87b1e13298357b07c518b358b2e51d8c1cd7100bc41c98",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows.zip"
+        },
+        {
+          "name": "rom-windows-legacy.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows-legacy",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 331133872,
+          "sha256": "9e30367d9f590e4cfd36a7a3c930a995d7de18bfefd7eda2df8e78e82c858a10",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows-legacy.zip"
         },
         {
           "name": "rom-linux.zip",
@@ -82,8 +106,9 @@
           "model": "Y1",
           "type": "Type A",
           "size": 616155805,
-          "sha256": "7781b433018135a7d6d2e0b1127114b55ddde7e7a906c86649b45c844dee954f",
-          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip"
+          "sha256": "b84d50be45371d11419af3eedd36131ffed75ec100eb399030c93d6ce0285580",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip"
         },
         {
           "name": "rom-linux-arm64.zip",
@@ -92,8 +117,20 @@
           "model": "Y1",
           "type": "Type A",
           "size": 441060747,
-          "sha256": "f736ed0d789f8510e1e2c019d0164056d8248aa95f45e634ed8012822f615146",
-          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip"
+          "sha256": "19ab160778801b685612b8a09c50526bb74c10ad77b2020898ca8e9e8239bebb",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip"
+        },
+        {
+          "name": "rom-linux-legacy.zip",
+          "source_asset": "rom.zip",
+          "platform": "linux-legacy",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 329548151,
+          "sha256": "802088613b2f7bc441590384f385471e43ec61be97e3a2a691d26dd4f6fb00e0",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-legacy.zip"
         },
         {
           "name": "rom-macos.zip",
@@ -102,8 +139,9 @@
           "model": "Y1",
           "type": "Type A",
           "size": 376006609,
-          "sha256": "4702fcfc9638f78a5305520acbd5185f3fc6c985e249179e1004190bbffebc85",
-          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip"
+          "sha256": "70ee35070e38490707b84548060785b952cbe6bd689e8b33caef15d5e81d38e7",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip"
         }
       ],
       "original_assets": [
