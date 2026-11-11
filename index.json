@@ -1,11 +1,35 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T01:32:21Z",
+  "generated_at": "2026-11-11T14:14:14Z",
   "source_repo": "y1-community/y1-linux-rom",
   "mirror_repo": "y1-community/y1-linux-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
   "updater_repo": "y1-community/updater-ce-neo",
   "platforms": [
+    {
+      "key": "windows",
+      "os": "windows",
+      "arch": "x86-64",
+      "suffix": "-windows.zip",
+      "layout": "sp_flash_tool",
+      "legacy": false
+    },
+    {
+      "key": "windows-arm64",
+      "os": "windows",
+      "arch": "arm64",
+      "suffix": "-windows-arm64.zip",
+      "layout": "sp_flash_tool",
+      "legacy": false
+    },
+    {
+      "key": "windows-legacy",
+      "os": "windows",
+      "arch": "x86",
+      "suffix": "-windows-legacy.zip",
+      "layout": "sp_flash_tool",
+      "legacy": true
+    },
     {
       "key": "linux",
       "os": "linux",
@@ -29,22 +53,6 @@
       "suffix": "-macos.zip",
       "layout": "beside_dmg",
       "legacy": false
-    },
-    {
-      "key": "windows",
-      "os": "windows",
-      "arch": "x86-64",
-      "suffix": "-windows.zip",
-      "layout": "sp_flash_tool",
-      "legacy": false
-    },
-    {
-      "key": "windows-arm64",
-      "os": "windows",
-      "arch": "arm64",
-      "suffix": "-windows-arm64.zip",
-      "layout": "sp_flash_tool",
-      "legacy": false
     }
   ],
   "releases": [
@@ -58,13 +66,23 @@
       "source_notes": "This is a release of Linux for the Innioasis Y1 intended for developers to create novel experiences on the Innioasis Y1 audio player.\r\n\r\nCredit to @palutenfan123 for building this.",
       "assets": [
         {
+          "name": "rom-windows.zip",
+          "source_asset": "rom.zip",
+          "platform": "windows",
+          "model": "Y1",
+          "type": "Type A",
+          "size": 492284289,
+          "sha256": "968011563e08ff719ca4d89cc0bef1d4a6acf6532aa164455ef357149c1e0c89",
+          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows.zip"
+        },
+        {
           "name": "rom-linux.zip",
           "source_asset": "rom.zip",
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
           "size": 616155805,
-          "sha256": "cd2968fbfc331a4fca6383f1ec35f4332bdb83adff88c64ff225d7c83dbd5b73",
+          "sha256": "7781b433018135a7d6d2e0b1127114b55ddde7e7a906c86649b45c844dee954f",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip"
         },
         {
@@ -74,7 +92,7 @@
           "model": "Y1",
           "type": "Type A",
           "size": 441060747,
-          "sha256": "ba5c3f9e5576000d93bff2500fc3f6d20766844f4591c56029f489ceb11bbdee",
+          "sha256": "f736ed0d789f8510e1e2c019d0164056d8248aa95f45e634ed8012822f615146",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip"
         },
         {
@@ -84,18 +102,8 @@
           "model": "Y1",
           "type": "Type A",
           "size": 376006609,
-          "sha256": "755742dd3621e93213ed86768779962ca74948e8e71be6123f9aa26f827f7049",
+          "sha256": "4702fcfc9638f78a5305520acbd5185f3fc6c985e249179e1004190bbffebc85",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip"
-        },
-        {
-          "name": "rom-windows.zip",
-          "source_asset": "rom.zip",
-          "platform": "windows",
-          "model": "Y1",
-          "type": "Type A",
-          "size": 492284289,
-          "sha256": "9011b1c1a8f96c32f6693920b955fcf2beebef7d7ade57d8aa215fa4ef6bfbb0",
-          "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-windows.zip"
         }
       ],
       "original_assets": [
