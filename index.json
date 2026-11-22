@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-21T09:55:38Z",
+  "generated_at": "2026-11-22T11:19:53Z",
   "source_repo": "y1-community/y1-linux-rom",
   "source_fallback_repo": "ryan-specter/y1-linux-rom",
   "mirror_repo": "y1-community/y1-linux-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 557805501,
-          "sha256": "7c71a7c96c7328612865c064bf10b3828ae261ae6caa833fcc0c063ccefaaf1f",
+          "size": 557878170,
+          "sha256": "db42aeb3bdb3684a74b26e581892a47e09e025eb9ad56521c66f073b2af6609b",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 382712222,
-          "sha256": "68abb20a86794eb5819551a79919e685a90c1ecae4534154e344c2b8a39d1709",
+          "size": 382782721,
+          "sha256": "e5424941939983f93195a1f15a8e23668da78b0d04ac0eb2fc1d5eb2b0f86b20",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "Y1",
           "type": "Type A",
-          "size": 365534043,
-          "sha256": "3838b61d7e895a73e2cd708d65ae00b754cd12f19289496010e72823e4a31ec7",
+          "size": 365388772,
+          "sha256": "bd1dec1e380566853fd4232649dee4d33aa7b76e46bd52f80e5f87f03ee5b6df",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-macos.zip"
         }
