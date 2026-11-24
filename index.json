@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T22:07:54Z",
+  "generated_at": "2026-11-24T17:47:22Z",
   "source_repo": "y1-community/y1-linux-rom",
   "source_fallback_repo": "ryan-specter/y1-linux-rom",
   "mirror_repo": "y1-community/y1-linux-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "Y1",
           "type": "Type A",
-          "size": 558094441,
-          "sha256": "f7df800418cb02b6eb49f1278691b772e483dde33a34f75cac1c2ead644359bf",
+          "size": 557978080,
+          "sha256": "eb232b9216a5bf590c1d386de576949255e18875a3883e66b681b12e60714a3d",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "Y1",
           "type": "Type A",
-          "size": 383001203,
-          "sha256": "26b935b97e22bb0fd5dca1b3372f4a11ceac7f28530e06a329c9fc3248cccd79",
+          "size": 382881150,
+          "sha256": "b6ffcbee59050a227359dbd2943e7cb182e7ad7800d4052aa9aaf53b65d3a3c0",
           "url": "https://github.com/y1-community/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/y1-linux-rom-mirror/releases/download/0.0.1/rom-linux-arm64.zip"
         },
